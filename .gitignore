@@ -1,3 +1,17 @@
 busybox-1.36.1/_install
 linux/build
 .vscode/
+/ubuntu*
+.#*
+*.swp
+*.o
+*.ko
+*.mod.c
+*.mod.o
+*.cmd
+*.a
+*.tmp
+*.order
+*.symvers
+Kbuild
+Config.in
