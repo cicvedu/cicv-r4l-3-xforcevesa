@@ -485,6 +485,13 @@ impl kernel::Module for E1000KernelMod {
     }
 }
 
+impl driver::DeviceRemoval for E1000DrvPrvData {
+    fn device_remove(&self) {
+        pr_err!("Rust for linux e1000 driver demo (device_remove)\n");
+    }
+}
+
+
 impl Drop for E1000KernelMod {
     fn drop(&mut self) {
         pr_info!("Rust for linux e1000 driver demo (exit)\n");
