@@ -13,5 +13,4 @@ linux/build
 *.tmp
 *.order
 *.symvers
-Kbuild
 Config.in

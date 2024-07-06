@@ -72,7 +72,7 @@ int __init m_init(void)
 
 	err = alloc_chrdev_region(&devno, completion_minor, 1, MODULE_NAME);
 	if (err < 0) {
-		pr_info("Cant't get major");
+		pr_err("Cant't get major");
 		return err;
 	}
 	completion_major = MAJOR(devno);
@@ -82,7 +82,7 @@ int __init m_init(void)
 	devno = MKDEV(completion_major, completion_minor);
 	err = cdev_add(&completion_dev.cdev, devno, 1);
 	if (err) {
-		pr_info("Error(%d): Adding completion device error\n", err);
+		pr_err("Error(%d): Adding completion device error\n", err);
 		return err;
 	}
 
