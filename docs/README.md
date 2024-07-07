@@ -6,7 +6,9 @@ The following content is in Chinese.
 
 至此，本人完成了自动驾驶OS集训营的第三周`Rust for Linux`实验的所有内容，一切成果均可复现。
 
-通过本实验，本人对Linux内核的配置、编写内核模块、驱动开发等方面有了一定的了解，并掌握了Rust编写简单内核模块的能力。
+通过本实验，本人对Linux内核的配置、编写内核模块、驱动开发等方面有了一定的了解，并掌握了Rust编写简单内核模块的能力，此处为本人[学习记录与感言](./07-notes.md)。
+
+同时本人以**第一名**的成绩通过了`rustlings`的挑战，排行榜[点击这里](https://cicvedu.github.io/rust-rustlings-semester-4-ranking/)，本人ID为`xforcevesa`，欢迎大家来交流学习。
 
 ## 实验环境
 
