@@ -11,4 +11,4 @@ The following content is in Chinese.
 - 这是[作业链接](https://docs.qq.com/doc/DSk5xTHRJY1FZVUdK)
 - [学习记录与感言](./docs/07-notes.md)
 - 截图见[这里](./docs/08-screenshots.md)
-- 其他内容参见[这里](./docs/README.md)
+- 系统环境、作业完成情况等详细内容参见[此处](./docs/README.md)
