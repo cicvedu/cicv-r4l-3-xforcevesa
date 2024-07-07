@@ -9,6 +9,7 @@ The homeworks are in the directory `docs`.
 The following content is in Chinese.
 
 - 这是[作业链接](https://docs.qq.com/doc/DSk5xTHRJY1FZVUdK)
+- [学习记录与感言](./docs/07-notes.md)
 
 ### 作业1：编译Linux内核
 
