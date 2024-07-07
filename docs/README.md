@@ -14,9 +14,9 @@ The following content is in Chinese.
 
 ### 宿主机环境
 
-![alt text](image-11.png)
+![alt text](images/image-11.png)
 
-![alt text](image-12.png)
+![alt text](images/image-12.png)
 
 - 系统环境：`Endeavour OS`, based on `Arch Linux`, kernel version `6.9.7-arch1-1`
 - 工具链：
@@ -30,7 +30,7 @@ The following content is in Chinese.
 
 - 由于本人本机为`Arch Linux`，因此在宿主机上使用`systemd-nspawn`安装`Ubuntu`容器环境，以便于进行实验。
 
-![alt text](image-13.png)
+![alt text](images/image-13.png)
 
 - 启动参数：
 ```bash

@@ -6,7 +6,7 @@
 
 ### 一、BusyBox和内核
 
-在开始这部分实验之前，我对BusyBox的了解仅限于它是一个精简的Linux工具集合。通过[BusyBox和内核](https://github.com/cicvedu/cicv-r4l-3-xforcevesa/blob/master/docs/01-busybox-kernel.md)这部分的学习，我学会了如何安装和配置BusyBox，并将其集成到Linux内核中。具体步骤包括：
+在开始这部分实验之前，我对BusyBox的了解仅限于它是一个精简的Linux工具集合。通过[BusyBox和内核](./01-busybox-kernel.md)这部分的学习，我学会了如何安装和配置BusyBox，并将其集成到Linux内核中。具体步骤包括：
 
 1. 下载并解压BusyBox源码。
 2. 配置BusyBox选项，使其适合我的系统需求。
@@ -17,7 +17,7 @@
 
 ### 二、Linux网络
 
-[Linux网络](https://github.com/cicvedu/cicv-r4l-3-xforcevesa/blob/master/docs/02-linux-network.md)这部分实验让我深入了解了Linux系统中的网络配置与管理。实验内容包括：
+[Linux网络](./02-linux-network.md)这部分实验让我深入了解了Linux系统中的网络配置与管理。实验内容包括：
 
 1. 配置网络接口，确保系统可以连接到网络。
 2. 配置路由与转发，实现不同网络之间的通信。
@@ -27,7 +27,7 @@
 
 ### 三、内核调试
 
-内核调试是Linux系统开发中非常重要的一部分。[内核调试](https://github.com/cicvedu/cicv-r4l-3-xforcevesa/blob/master/docs/03-hacking-kernel.md)这部分实验让我了解了如何设置内核调试环境，并使用gdb进行调试。具体步骤包括：
+内核调试是Linux系统开发中非常重要的一部分。[内核调试](./03-hacking-kernel.md)这部分实验让我了解了如何设置内核调试环境，并使用gdb进行调试。具体步骤包括：
 
 1. 配置内核，启用调试选项。
 2. 编译并安装调试版内核。
@@ -37,7 +37,7 @@
 
 ### 四、卸载内核模块
 
-[卸载内核模块](https://github.com/cicvedu/cicv-r4l-3-xforcevesa/blob/master/docs/04-remove-module.md)这部分实验让我了解了如何卸载Linux内核模块。具体步骤包括：
+[卸载内核模块](./04-remove-module.md)这部分实验让我了解了如何卸载Linux内核模块。具体步骤包括：
 
 1. 列出当前加载的内核模块，了解系统的模块情况。
 2. 卸载指定模块，处理模块依赖关系。
@@ -47,7 +47,7 @@
 
 ### 五、字符设备
 
-[字符设备](https://github.com/cicvedu/cicv-r4l-3-xforcevesa/blob/master/docs/05-char-device.md)这部分实验介绍了Linux系统中字符设备的相关知识。实验内容包括：
+[字符设备](./05-char-device.md)这部分实验介绍了Linux系统中字符设备的相关知识。实验内容包括：
 
 1. 编写字符设备驱动程序，实现基本的读写操作。
 2. 测试字符设备驱动，确保其功能正常。
@@ -57,7 +57,7 @@
 
 ### 六、Linux网络实验
 
-[Linux网络实验](https://github.com/cicvedu/cicv-r4l-3-xforcevesa/blob/master/docs/06-linux-network-exmeriments.md)这部分实验提供了几个关于Linux网络的实际操作。实验内容包括：
+[Linux网络实验](./06-linux-network-exmeriments.md)这部分实验提供了几个关于Linux网络的实际操作。实验内容包括：
 
 1. 使用各种工具和命令进行网络配置和测试，确保系统网络正常运行。
 2. 搭建和配置网络服务，提供稳定的网络服务。

@@ -61,7 +61,7 @@ ping 10.0.2.2
 
 If you see ping responses, then you have successfully configured the network.
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 ## Step 4: Exit QEMU
 

@@ -44,6 +44,9 @@ make menuconfig
 make install -j$(nproc)
 ```
 
+![alt text](images/image-14.png)
+
+
 Then obtain the busybox binary in `/mnt/busybox-1.36.1/_install`.
 
 ## Step 4: Install Linux Kernel Build Essentials
@@ -83,5 +86,6 @@ make LLVM=1 menuconfig
 make LLVM=1 -j$(nproc)
 ```
 
-Then obtain the kernel binary in `/mnt/linux/arch/x86/boot/bzImage` and kernel image in `/mnt/linux/arch/x86/boot/compressed/vmlinux`.
+![alt text](images/image-15.png)
 
+Then obtain the kernel binary in `/mnt/linux/arch/x86/boot/bzImage` and kernel image in `/mnt/linux/arch/x86/boot/compressed/vmlinux`.

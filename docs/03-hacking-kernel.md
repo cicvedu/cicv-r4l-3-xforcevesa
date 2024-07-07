@@ -90,4 +90,4 @@ ls
 insmod rust_helloworld.ko
 ```
 
-![alt text](image.png)
+![alt text](images/image.png)

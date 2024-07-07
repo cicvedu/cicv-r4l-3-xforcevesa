@@ -6,7 +6,7 @@ As shown [here](../r4l_experiment/build.sh)
 
 Run it!
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 ## Step 2: Setup NFS
 
@@ -30,7 +30,7 @@ mount -t nfs -o nolock host_machine:$R4L_EXP/driver /mnt
 
 Run the experiment and check if the driver is mounted.
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 What we mount to `/mnt` is the driver directory on the host machine.
 
@@ -64,7 +64,7 @@ And add the following parameters to the QEMU:
 -device e1000,mac=52:54:00:12:34:50,netdev=host_net 
 ```
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 ## Step 4: Rust Modules
 
@@ -75,7 +75,7 @@ cd $R4L_EXP/driver/002_completion
 make KERNELDIR=../../../linux/
 ```
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 In QEMU Linux:
 
@@ -85,7 +85,7 @@ sh load_module.sh
 cat /dev/completion
 ```
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
 Re-write it in `r4l_experiment/driver/003_completion_rust`:
 
@@ -247,6 +247,6 @@ echo 1 > /dev/completion
 cat /dev/completion
 ```
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
-![alt text](image-10.png)
+![alt text](images/image-10.png)

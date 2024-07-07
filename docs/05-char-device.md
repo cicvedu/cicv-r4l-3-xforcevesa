@@ -43,5 +43,5 @@ insmod rust_chrdev.ko
 echo 1 > /dev/cicv
 cat /dev/cicv
 ```
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 

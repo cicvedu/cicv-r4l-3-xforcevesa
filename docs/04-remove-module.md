@@ -21,4 +21,4 @@ rmmod r4l_e1000_demo.ko
 dmesg
 ```
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
