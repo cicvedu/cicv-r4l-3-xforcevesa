@@ -32,7 +32,10 @@ The following content is in Chinese.
 
 ![alt text](image-13.png)
 
-- 启动参数：```sudo systemd-nspawn --bind=.:/mnt -D ./ubuntu-base-22.04-base-amd64/```
+- 启动参数：
+```bash
+sudo systemd-nspawn --bind=.:/mnt -D ./ubuntu-base-22.04-base-amd64/
+```
 - 系统环境：`Ubuntu 22.04`
 - 工具链：
     - gcc/g++: 11.4.0
